@@ -4,7 +4,7 @@ import os, sys
 try:
     passwordDictionary = open(sys.argv[1], 'r').read().split('\n')
 except Exception as e:
-    print "Syntax: python " + sys.argv[0] + "C:\Users\r0otz\Desktop\SecLists-master\Passwords"
+    print "Syntax: python " + sys.argv[0] + "/home/r0ot/SecLists/Passwords"
     sys.exit()
 
 targetServer = "https://www.match.com/login/"
